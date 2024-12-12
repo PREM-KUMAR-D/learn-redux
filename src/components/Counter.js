@@ -12,7 +12,7 @@ const Counter = () => {
   }
 
   const decHandler =()=>{
-    dispatchFunc({type:'INCREMENTBY2'});
+    dispatchFunc({type:'DECREMENTBY2'});
   }
   
   const toggleCounterHandler = () => {};
